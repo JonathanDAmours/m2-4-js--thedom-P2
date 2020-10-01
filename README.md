@@ -22,7 +22,7 @@ By the end of this exercise, you will have a track, a stable of frogs that you c
 
 All of the work will be done inside of `__workshop/exercise-1/` folder. Take a few minutes to see what's in there. \_You will write the majority of your code in `app.js`.
 
-### Exercise 1.1 - Set up the track
+<!-- ### Exercise 1.1 - Set up the track
 
 1. Write a `for` loop that will generate a "lane" for each frog. Each lane should be an `li` and inside each `li` there should be a span for the lane number. There is a variable called `FROGS` in `exercise-1/app.js`. Use that to determine how many times to run the `for` loop.
 2. Each lane should be an `li`.
@@ -38,12 +38,12 @@ Here is some pseudo-code to get you started. 😎
 ```js
 // Exercise 1.1 - Set up the track
 for (let count = 1; count <= FROGS; count++) {
-  // create a lane (<li>)
-  // give lane an id
-  // create a <span>
-  // add the lane number to the span
-  // append the span to the lane
-  // append the lane to the track
+  // create a lane (<li>) √
+  // give lane an id √
+  // create a <span> √
+  // add the lane number to the span √
+  // append the span to the lane √
+  // append the lane to the track √
 }
 ```
 
@@ -53,7 +53,7 @@ for (let count = 1; count <= FROGS; count++) {
 
 We need to add our stable of frogs to the app. You will find a file called `frogstable.js` in `exercise-1/assets/`.
 
-1. Link that file in your `index.html` file. It should be added right _before_ the `app.js` file is added. This will allow the JS inside of `app.js` to have access to the contents of `frogstable.js`
+1. Link that file in your `index.html` file. It should be added right _before_ the `app.js` file is added. This will allow the JS inside of `app.js` to have access to the contents of `frogstable.js` √
 
 ```html
 <script src="./assets/frogstable.js"></script>
@@ -65,12 +65,10 @@ We need to add our stable of frogs to the app. You will find a file called `frog
 
 ```js
 // Exercise 1.2 - Call in the frogs!
-// declare a variable called racers and assign a value of: empty array
-
-// write a for loop
-// push a frog from frogstable into racers array
-
-// console.log racers
+// declare a variable called racers and assign a value of: empty array √
+// write a for loop √
+// push a frog from frogstable into racers array √
+// console.log racers √
 ```
 
 ![1.2](./__lecture/assets/solved_1.2.png)
@@ -89,7 +87,7 @@ We need to assign each frog to a lane.
 
 ### Exercise 1.4 - Add Styling
 
-1. Link the provided stylesheet (`/assets/styles.css`) in our `html` file.
+1. Link the provided stylesheet (`/assets/styles.css`) in our `html` file. √
 
 ```html
 <link rel="stylesheet" href="./assets/styles.css" />
@@ -153,8 +151,8 @@ const hop = setInterval(function () {
 
 ![1.6.7](./__lecture/assets/solved_1.6.7.gif)
 
-Notice that this will continue forever!! 😬
-
+Notice that this will continue forever!! 😬 -->
+<!--
 8. Add logic to the `setInterval` callback to stop the frog hopping beyond a progress of `100`.
 9. Once a frog reaches `100`, use `clearInterval` to stop the process.
 10. Write a message to the console, once the frog has reached the end.
@@ -163,19 +161,19 @@ Notice that this will continue forever!! 😬
 
 ---
 
-<center>🟡 - Minimally complete workshop (75%) - 🟡</center>
+<center>🟡 - Minimally complete workshop (75%) - 🟡</center> -->
 
 ---
 
-### Exercise 1.7 - Hopping in the Browser!
+<!-- ### Exercise 1.7 - Hopping in the Browser!
 
 Examine the CSS file and determine what property you can modify to get them moving on the screen. Once you know which CSS property to modify, modify it inside of the `setInterval` callback instead of the `console.log` that announces the bounce distance.
 
-![1.7](./__lecture/assets/solved_1.7.gif)
+![1.7](./__lecture/assets/solved_1.7.gif) -->
 
-### Exercise 1.8 - Uncooperative Frogs
+<!-- ### Exercise 1.8 - Uncooperative Frogs
 
-If you have ever seen a frog race, it isn't all that exciting. The frogs are generally not that motivated to reach the end... To that end, let's give each frog its own random delay time for the setInterval to simulate a frog waiting around between hops.
+If you have ever seen a frog race, it isn't all that exciting. The frogs are generally not that motivated to reach the end... To that end, let's give each frog its own random delay time for the setInterval to simulate a frog waiting around between hops. -->
 
 ---
 
@@ -191,7 +189,7 @@ If you have ever seen a frog race, it isn't all that exciting. The frogs are gen
 
 **Hint**: You will need to use `setInterval`...
 
-### Challenge 1
+<!-- ### Challenge 1
 
 It would be great if we could pick frogs at random from the stable, instead of simply taking them in order. See what you can change to make this happen. You will most likely need to use a `while` loop instead of a `for` loop.
 
@@ -205,4 +203,4 @@ This could also include
 - announcing the winner in the page.
 - printing each frog's progress.
 - a podium for the winners.
-- etc.
+- etc. -->

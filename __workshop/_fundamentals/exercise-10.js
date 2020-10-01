@@ -27,7 +27,7 @@
 // solution comes more quickly :)
 
 const uniqueElements = (arr1, arr2) => {
-  // Your code here
+  // I'll come later to see if I can get it right! =)
 };
 
 // Part 2 - Test
